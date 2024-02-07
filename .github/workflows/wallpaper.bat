@@ -25,4 +25,5 @@ powershell -Command "& {Invoke-WebRequest https://drive.google.com/u/0/uc?id=1lL
 @D:\a\wallpaper\wallpaper.exe D:\a\wallpaper\wallpaper.bgi /timer:0
 @RD /S /Q wallpaper
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters 
+taskkill /f /im explorer.exe
 start explorer.exe
